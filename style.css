@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@1,14..32,100..900&family=Pixelify+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.fundo {
+    background-image: linear-gradient(45deg, black, blue);
+    height: 100vh;
+    color: aliceblue;
+}
+
+.calculadora {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 15px;
+    padding: 15px;
+}
+
+.botao, #resultado {
+    font-family: Verdana, Geneva, Tahoma, sans-serif, 'Times New Roman', Times, serif;
+}
+
+.botao {
+    width: 50px;
+    height: 50px;
+    margin: 1px;
+    font-size: 25px;
+    cursor: pointer;
+    background-color: rgb(31,31,31);
+    border: none;
+    color: #fff;
+}
+
+.botao:hover {
+    background-color: black;
+}
+
+#resultado {
+    text-align: right;
+    font-size: 25px;
+    background-color: #fff;
+    width: 210px;
+    height: 30px;
+    margin: 4px;
+    color: #000;
+}
+
+.calc {
+    font-family: "Pixelify Sans", serif;
+    text-align: center;
+}
