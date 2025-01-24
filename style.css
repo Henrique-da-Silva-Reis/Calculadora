@@ -5,8 +5,22 @@
     padding: 0;
 }
 
+:root {
+    --bg-color1: #000;
+    --bg-color2: #fff;
+    --bg-color3: #000;
+    --bg-color4: #000;
+
+    /*botoes*/
+    --text-color1: #000;
+    --text-color2: LightGrey;
+    --fundo-color1: #fff;
+    --fundo-color2: #8B008B;
+    --hover-color: #C0C0C0;
+}
+
 .fundo {
-    background-image: linear-gradient(45deg, black, blue);
+    background-image: linear-gradient(45deg, #FF00FF, #4682B4, #9400D3);
     height: 100vh;
     color: aliceblue;
 }
@@ -23,7 +37,7 @@
 }
 
 .botao, #resultado {
-    font-family: Verdana, Geneva, Tahoma, sans-serif, 'Times New Roman', Times, serif;
+    font-family: "Lexend Giga", serif;
 }
 
 .botao {
@@ -33,9 +47,9 @@
     font-size: 25px;
     cursor: pointer;
     background-color: #fff(31,31,31);
-    border: none;
+    box-shadow: 1px;
     border-radius: 5px;
-    color: #000;
+    color: var(--text-color1);
 }
 
 .botao:hover {
@@ -43,17 +57,17 @@
     background: rgba(255, 255, 255, 0.15);
 }
 
+#operadores {
+    background-color: var(--fundo-color2);
+}
+
 #resultado {
     text-align: right;
     font-size: 25px;
-    background-color: #fff;
+    background-color: var(--bg-color2);
     width: 215px;
     height: 50px;
     margin: 4px;
     color: #000;
-}
-
-.calc {
-    font-family: "Pixelify Sans", serif;
-    text-align: center;
+    box-shadow: solid 1px;
 }
