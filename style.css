@@ -47,21 +47,25 @@
     font-size: 25px;
     cursor: pointer;
     background-color: #fff(31,31,31);
-    box-shadow: 1px;
     border-radius: 5px;
+    border: solid 1px rgb(88, 88, 88);
+    box-shadow: 0px 0px 10px rgba(213, 214, 214, 0.5);
     color: var(--text-color1);
 }
 
 .botao:hover {
     backdrop-filter: blur(10px);
-    background: rgba(255, 255, 255, 0.15);
+    background: rgba(225, 225, 225, 0.15);
 }
 
 #operadores {
+    box-shadow: 0px 0px 10px rgba(255, 0, 255, 0.5);
+    border: solid 1px rgb(204, 0, 255);
     background-color: var(--fundo-color2);
 }
 
 #resultado {
+    border: solid 2px rgb(0, 0, 0);
     text-align: right;
     font-size: 25px;
     background-color: var(--bg-color2);
@@ -69,5 +73,4 @@
     height: 50px;
     margin: 4px;
     color: #000;
-    box-shadow: solid 1px;
 }
